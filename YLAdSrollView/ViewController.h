@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YLADScrollView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<YLAdSrcollViewDelegate>
+@property (strong, nonatomic) YLADScrollView *scrollView;
 
 
 @end

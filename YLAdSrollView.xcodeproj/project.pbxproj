@@ -15,6 +15,11 @@
 		10EB65EE1D113B8D003FB171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EB65EC1D113B8D003FB171 /* LaunchScreen.storyboard */; };
 		10EB65F91D113B8D003FB171 /* YLAdSrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EB65F81D113B8D003FB171 /* YLAdSrollViewTests.m */; };
 		10EB66041D113B8D003FB171 /* YLAdSrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EB66031D113B8D003FB171 /* YLAdSrollViewUITests.m */; };
+		10EB66131D113BB6003FB171 /* YLADScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EB66121D113BB6003FB171 /* YLADScrollView.m */; };
+		10EB66281D127CC7003FB171 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10EB66241D127CC7003FB171 /* image0.jpg */; };
+		10EB66291D127CC7003FB171 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10EB66251D127CC7003FB171 /* image1.jpg */; };
+		10EB662A1D127CC7003FB171 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10EB66261D127CC7003FB171 /* image2.jpg */; };
+		10EB662B1D127CC7003FB171 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10EB66271D127CC7003FB171 /* image3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		10EB65FF1D113B8D003FB171 /* YLAdSrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLAdSrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EB66031D113B8D003FB171 /* YLAdSrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAdSrollViewUITests.m; sourceTree = "<group>"; };
 		10EB66051D113B8D003FB171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EB66111D113BB6003FB171 /* YLADScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLADScrollView.h; sourceTree = "<group>"; };
+		10EB66121D113BB6003FB171 /* YLADScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLADScrollView.m; sourceTree = "<group>"; };
+		10EB66241D127CC7003FB171 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image0.jpg; path = image/image0.jpg; sourceTree = "<group>"; };
+		10EB66251D127CC7003FB171 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpg; path = image/image1.jpg; sourceTree = "<group>"; };
+		10EB66261D127CC7003FB171 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image2.jpg; path = image/image2.jpg; sourceTree = "<group>"; };
+		10EB66271D127CC7003FB171 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image3.jpg; path = image/image3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,16 @@
 		10EB65DD1D113B8D003FB171 /* YLAdSrollView */ = {
 			isa = PBXGroup;
 			children = (
+				10EB66241D127CC7003FB171 /* image0.jpg */,
+				10EB66251D127CC7003FB171 /* image1.jpg */,
+				10EB66261D127CC7003FB171 /* image2.jpg */,
+				10EB66271D127CC7003FB171 /* image3.jpg */,
 				10EB65E11D113B8D003FB171 /* AppDelegate.h */,
 				10EB65E21D113B8D003FB171 /* AppDelegate.m */,
 				10EB65E41D113B8D003FB171 /* ViewController.h */,
 				10EB65E51D113B8D003FB171 /* ViewController.m */,
+				10EB66111D113BB6003FB171 /* YLADScrollView.h */,
+				10EB66121D113BB6003FB171 /* YLADScrollView.m */,
 				10EB65E71D113B8D003FB171 /* Main.storyboard */,
 				10EB65EA1D113B8D003FB171 /* Assets.xcassets */,
 				10EB65EC1D113B8D003FB171 /* LaunchScreen.storyboard */,
@@ -243,8 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EB66281D127CC7003FB171 /* image0.jpg in Resources */,
+				10EB66291D127CC7003FB171 /* image1.jpg in Resources */,
 				10EB65EE1D113B8D003FB171 /* LaunchScreen.storyboard in Resources */,
 				10EB65EB1D113B8D003FB171 /* Assets.xcassets in Resources */,
+				10EB662A1D127CC7003FB171 /* image2.jpg in Resources */,
+				10EB662B1D127CC7003FB171 /* image3.jpg in Resources */,
 				10EB65E91D113B8D003FB171 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +294,7 @@
 				10EB65E61D113B8D003FB171 /* ViewController.m in Sources */,
 				10EB65E31D113B8D003FB171 /* AppDelegate.m in Sources */,
 				10EB65E01D113B8D003FB171 /* main.m in Sources */,
+				10EB66131D113BB6003FB171 /* YLADScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +520,7 @@
 				10EB660A1D113B8D003FB171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10EB660B1D113B8D003FB171 /* Build configuration list for PBXNativeTarget "YLAdSrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				10EB660D1D113B8D003FB171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10EB660E1D113B8D003FB171 /* Build configuration list for PBXNativeTarget "YLAdSrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				10EB66101D113B8D003FB171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
